@@ -116,6 +116,13 @@
                   "template": "took \uf252 {{ .FormattedMs }} ",
                   "type": "executiontime"
                 },
+            {
+                "background": "#0077c2",
+                "foreground": "#ffffff",
+                "style": "plain",
+                "template": "<#0077c2,transparent>\ue0b6</> \uf489 {{ .Name }} <transparent,#0077c2>\ue0b2</>",
+                "type": "shell"
+                },  
               {
                   "background": "#29315A",
                   "foreground": "#3EC669",
